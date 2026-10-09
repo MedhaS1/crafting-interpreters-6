@@ -1,0 +1,10 @@
+var array = Array(3);
+print array; // [nil, nil, nil]
+
+print array.length; // 3
+
+array.set(1, "new");
+print array.get(1); // new
+
+array.set(0, 5);
+print array; // [5, new, nil]
